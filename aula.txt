@@ -1,1 +1,7 @@
 Carlos - Jessica - Gustavo
+
+
+1) O que é controle de versão e por que e quando é importante utiliza-lo?
+
+O controle de versão é um sistema responsável por registrar as mudanças realizadas em um ou vários arquivos ao longo do tempo de maneira que você consiga recuperar as versões. O controle de versão pode ser feito com qualquer tipo de arquivo em um computador e não apenas arquivos de código fonte.
+É importante utilizá-lo porque ele permite reverter arquivos para um estado anterior, reverter um projeto inteiro para um estado anterior, comparar mudanças feitas ao decorrer do tempo, ver quem foi o último a modificar algo que pode estar causando problemas, quem introduziu um bug e quando, e muito mais. 
