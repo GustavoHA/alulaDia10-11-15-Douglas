@@ -24,8 +24,11 @@ Em um DVCS (tais como Git, Mercurial, Bazaar ou Darcs), os clientes não apenas f
 3) Quais são as operações básicas de envio e recebiemnto de versões, para um sistema centralizado e para um sistema distribuido?
 
 R: 
+-> Centralizado
+   Chek-out, chek-in, updade, comit, delete.
 
-
+-> Distribuídos
+   Chek-out, comit, clone. 
 
 
 4) Quais as atividades em um processo de manutenção de software?
