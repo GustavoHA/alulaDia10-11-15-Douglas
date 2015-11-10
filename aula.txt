@@ -3,29 +3,31 @@ Carlos - Jessica - Gustavo
 
 1) O que é controle de versão e por que e quando é importante utiliza-lo?
 
-O controle de versão é um sistema responsável por registrar as mudanças realizadas em um ou vários arquivos ao longo do tempo de maneira que você consiga recuperar as versões. O controle de versão pode ser feito com qualquer tipo de arquivo em um computador e não apenas arquivos de código fonte.
+R: O controle de versão é um sistema responsável por registrar as mudanças realizadas em um ou vários arquivos ao longo do tempo de maneira que você consiga recuperar as versões. O controle de versão pode ser feito com qualquer tipo de arquivo em um computador e não apenas arquivos de código fonte.
 É importante utilizá-lo porque ele permite reverter arquivos para um estado anterior, reverter um projeto inteiro para um estado anterior, comparar mudanças feitas ao decorrer do tempo, ver quem foi o último a modificar algo que pode estar causando problemas, quem introduziu um bug e quando, e muito mais. 
 
 
 2) descreva os sistemas de versionamento, local, centralizado e distribuido? De exemplos de sistemas para cada um deles.
 
-Local
+R: 
+-> Local
 O método preferido de controle de versão por muitas pessoas é copiar arquivos em outro diretório. É muito comum por ser simples, mas é também muito suscetível a erros. É fácil esquecer em qual diretório você está e gravar acidentalmente no arquivo errado ou sobrescrever arquivos sem querer.
 Para lidar com esse problema, alguns programadores desenvolveram há muito tempo VCSs locais que armazenavam todas as alterações dos arquivos sob controle de revisão.
 
-Centralizado
+-> Centralizado
 Outro grande problema que as pessoas encontram estava na necessidade de trabalhar em conjunto com outros desenvolvedores, que usam outros sistemas. Para lidar com isso, foram desenvolvidos Sistemas de Controle de Versão Centralizados (Centralized Version Control System ou CVCS). Esses sistemas, como por exemplo o CVS, Subversion e Perforce, possuem um único servidor central que contém todos os arquivos versionados e vários clientes que podem resgatar os arquivos do servidor. Por muitos anos, esse foi o modelo padrão para controle de versão.
 
-Distibuidos
+-> Distibuidos
 Em um DVCS (tais como Git, Mercurial, Bazaar ou Darcs), os clientes não apenas fazem cópias das últimas versões dos arquivos: eles são cópias completas do repositório. Assim, se um servidor falha, qualquer um dos repositórios dos clientes pode ser copiado de volta para o servidor para restaurá-lo. Cada checkout é na prática um backup completo de todos os dados.
 
 
+3) Quais são as operações básicas de envio e recebiemnto de versões, para um sistema centralizado e para um sistema distribuido?
 
-
+R: 
 
 
 
 
 4) Quais as atividades em um processo de manutenção de software?
 
-Implantação do processo, implantação da modificação, migração, análise do problema e da modificação, revisão/aceitação da modificação, descontinuação do software.
+R: Implantação do processo, implantação da modificação, migração, análise do problema e da modificação, revisão/aceitação da modificação, descontinuação do software.
