@@ -19,3 +19,13 @@ Outro grande problema que as pessoas encontram estava na necessidade de trabalha
 Distibuidos
 Em um DVCS (tais como Git, Mercurial, Bazaar ou Darcs), os clientes não apenas fazem cópias das últimas versões dos arquivos: eles são cópias completas do repositório. Assim, se um servidor falha, qualquer um dos repositórios dos clientes pode ser copiado de volta para o servidor para restaurá-lo. Cada checkout é na prática um backup completo de todos os dados.
 
+
+
+
+
+
+
+
+4) Quais as atividades em um processo de manutenção de software?
+
+Implantação do processo, implantação da modificação, migração, análise do problema e da modificação, revisão/aceitação da modificação, descontinuação do software.
